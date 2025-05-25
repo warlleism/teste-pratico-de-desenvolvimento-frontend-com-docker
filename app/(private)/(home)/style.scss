@@ -1,0 +1,95 @@
+.main-task-register-content {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1027px) {
+    width: 100%;
+  }
+
+  .task-register-result-header-filter {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .task-register-result-header-filter-search {
+      position: relative;
+
+      @media (max-width: 1027px) {
+        width: 100%;
+      }
+    }
+
+    .data-dropdown-container {
+      width: 150px;
+      height: 100%;
+      display: flex;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: start;
+      background-color: #f2f2f2;
+
+      div {
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        color: #71717a;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+  .task-register-result {
+    display: flex;
+    gap: 10px;
+    height: 70vh;
+    position: relative;
+    scrollbar-width: thin;
+    flex-direction: column;
+    scrollbar-color: #02020227 #08080800;
+
+    @media (max-width: 664px) {
+      height: 100%;
+    }
+
+    .task-register-result-item {
+      width: 99%;
+      padding: 15px;
+      cursor: pointer;
+      position: relative;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transition: all 0.3s ease-in-out;
+
+      .main-task-register-result-item-info {
+        gap: 10px;
+        display: flex;
+
+        .task-register-result-item-info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          h3 {
+            gap: 10px;
+            font-weight: 600;
+          }
+
+          p {
+            font-size: 0.7rem;
+            color: #747879;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .task-register-result-item:hover {
+      transform: translateX(5px);
+    }
+  }
+}
