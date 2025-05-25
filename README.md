@@ -29,3 +29,11 @@ docker run -d -p 18649:18649 --name dikma-container dikma-platform
 $ npm run test
 
 ```
+
+## Deploy
+
+```bash
+
+$ Em um cerário real trabalharia com a ideia de um fluxo de CI/CD com Github Actions + AWS S3
+
+```
