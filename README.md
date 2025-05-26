@@ -34,6 +34,6 @@ $ npm run test
 
 ```bash
 
-$ Em um cerário real trabalharia com a ideia de um fluxo de CI/CD com Github Actions + AWS S3
+$ Em um cenário real trabalharia com a ideia de um fluxo de CI/CD com Github Actions (Workflow) + AWS S3, Vercel ou Netlify.
 
 ```
